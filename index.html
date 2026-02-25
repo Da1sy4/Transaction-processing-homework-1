@@ -55,7 +55,7 @@ DOB,and gender.
              maxlength="30"
              required
              title="Enter first name"
-             placeholder="ie.Daisy">
+             placeholder="ie.Daisy"/>
            </td>
           </tr>
 
@@ -89,7 +89,7 @@ DOB,and gender.
 
           <tr>
             <td class="td1"><label for="pgender"> Patient's Gender:</label></td>
-            <td>
+            <td> <!--radio button-->
               <input
                 type="radio"
                 id="g1"
@@ -110,6 +110,33 @@ DOB,and gender.
                 Other
             </td> 
           </tr>
+
+          <tr>
+          <td class="td1"><label for="DOB"> Date of Birth:</label></td>
+           <input
+               type="date"
+               id="DOB"
+               name="DOB"
+               required/>
+          </tr>
+        
+          <tr>
+        <td class="td1"><label for="SSN"> SSN:</label></td>
+            <input
+              type="password"
+              minlength="11"
+              maxlength="11"
+              id="SSN"
+              name="SSN"
+              required
+              title="Enter SSN"
+              placeholder="123-456-789"
+              />
+           </tr>
+               
+               
+          
+          
         </table>
       </div> 
     </center>
