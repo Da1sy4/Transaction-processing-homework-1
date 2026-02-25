@@ -55,12 +55,63 @@ DOB,and gender.
              maxlength="30"
              required
              title="Enter first name"
-             placeholder="your first name">
+             placeholder="ie.Daisy">
            </td>
           </tr>
+
+          <tr> <!---enter middle initial-->
+           <td class="td1"><label for="mini">Middle Initial:</label></td>
+           <td>
+             <input 
+             type="text"
+             name="mini"
+             id="mini"
+             maxlength="1"
+             required
+             title="Enter middle initial"
+             placeholder="ie.R">
+           </td>
+          </tr>
+
+          <tr> <!--last name-->
+           <td class="td1"><label for="lname">Last Name:</label></td>
+           <td>
+             <input 
+             type="text"
+             name="lname"
+             id="lname"
+             maxlength="30"
+             required
+             title="Enter last name"
+             placeholder="ie.Que">
+           </td>
+          </tr>
+
+          <tr>
+            <td class="td1"><label for="pgender"><Patient Gender:></label></td>
+            <td>
+              <input
+                type="radio"
+                id="g1"
+                name="pgender"
+                value="Male" />
+                Male 
+            <input
+                type="radio"
+                id="g2"
+                name="pgender"
+                value="Female" />
+               Female
+            <input
+                type="radio"
+                id="g3"
+                name="pgender"
+                value="Other" />
+                Other
+            </td> 
+          </tr>
         </table>
-      </div>  
-        
+      </div> 
     </center>
 </form> 
 
