@@ -10,13 +10,13 @@ The font will be times new roman.
 The first section of the form will ask the patient to create an account by putting in their first name, middle initial, and last name, as well as their ssn,
 DOB,and gender.
 -->
-<html lang="en">
+<html lang="en">  
   <head>
     <link rel="stylesheet" href="styles.css"> <!-- link to the css file-->
     <title> New patient registration|Cura Cardiology Clinic </title> <!-- this will display the text on the tab-->
   </head>
-  <body>
-    <header>
+  <body> <!-- start of whole body-->
+    <header> <!-- start of header-->
       <table width="100%">
         <tr>
           <td valign="top" align="left" width="25%">
@@ -34,6 +34,35 @@ DOB,and gender.
           </td>  
         </tr>
       </table>  
-    </header>
-  </body>
-</html>
+    </header> <!-- end of header-->
+<hr>  
+<!-- where form begins-->
+<form action="thanks.html">
+    <center>
+      <div class="format"> <!--reference later in css file-->
+        <table>
+          <tr>
+             <th colspan="4">Create Patient Account</th>
+          </tr>
+          <!---create patient account section starts here-->
+          <tr>  
+           <td class="td1"><label for="fname">First Name:</label></td>
+           <td>
+             <input> 
+             type="text"
+             name="fname"
+             id="fname"
+             maxlength="30"
+             required
+             title="Enter first name"
+             placeholder="your first name"
+           </td>
+          </tr>
+        </table>
+      </div>  
+        
+    </center>
+</form> 
+
+  </body> <!--- end of whole body
+</html>  
