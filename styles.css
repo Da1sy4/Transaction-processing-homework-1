@@ -39,6 +39,39 @@ text-align:right;
 font-family:"public sans,sans-serif;
 font-weight:bold;
 }
+th{
+text-align:center;
+font-family:"public sans",sans-serif;
+font-weight:bold;
+}
+footer{
+position:flex;
+bottom:0;
+width:100%;
+background-color:rgb(225,192,203);
+height:3.0 rem;
+}
+#footer{
+text-align:right;
+font-family:"public sans",sans-serif;
+font-weight:normal;
+margin-right:10px;
+}
+label{
+text-align:right;
+font-family:"public sans",san-serif;
+font-weight:normal;
+}
+input{
+text-align:left;
+font-family:"public sans",san-serif;
+font-weight:normal;
+}
+textarea{
+text-align:left;
+font-family:"public sans",san-serif;
+font-weight:normal;
+}
 
 
 
