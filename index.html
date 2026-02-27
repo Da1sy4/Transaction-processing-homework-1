@@ -329,25 +329,54 @@ DOB,and gender.
 				No 
             </td> 
  </tr> 
-
-<tr>
-  <td class="td1" align="right">
+ <tr>
+<td class="td1" align="right">
 	  <label for="notes">If yes specify which one </label> 
   </td> 
-  <td>
-	<textarea
-		rows="3"
-		cols="30"
-		maxlength="100"
-		id="notes"
-		name="notes"
-		title="enter description"
-		placeholder="(Insert description here)"
-		></textarea></textarea>
-  </td>
-	
+  <td> 
+   <textarea>
+	 rows="3"
+	 cols="30"
+	 maxlength="100"
+	 id="notes"
+	 name="notes"
+	 title="enter description"
+	 placeholder="(Insert description here)"
+   ></textarea>
+   </td>
 </tr>
+
+<tr>
+  <td class="td1"><label for="DOP"> Date of Procedure:</label></td> <!--DOP=Date of procedure-->
+          <td>
+           <input
+               type="date"
+               id="DOP"
+               name="DOP"
+               optional/>
+          </td>
+       </tr>
+	
+	   <tr>
+ <td class="td1"><label for="fhcp"> Have you had any cardiac procedures?</label></td> <!--fhcp=family heart cardiac problem-->
+            <td> <!--radio button-->
+              <input
+                type="radio"
+                id="a1"
+                name="fhcp"
+                value="Yes" />
+                Yes
+            <input
+                type="radio"
+                id="a2"
+                name="fhcp"
+                value="No" />
+				No 
+            </td> 
+ </tr> 
 			
+
+	
           
 
 			
