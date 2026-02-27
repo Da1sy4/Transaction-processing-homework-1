@@ -26,11 +26,20 @@ font-weight:normal;
 flex-grow:1;
 }
 main{
-text-align=center;
-font-family="public sans",sans-serif;
+text-align:center;
+font-family:"public sans",sans-serif;
 font-weight:normal;
 flex-grow:1;
 }
+.image{
+text-align:left;
+}
+.td1{
+text-align:right;
+font-family:"public sans,sans-serif;
+font-weight:bold;
+}
+
 
 
 
